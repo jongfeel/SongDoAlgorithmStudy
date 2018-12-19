@@ -26,7 +26,18 @@
 |["123", "456", "789"]|true
 |["12", "123", "1235", "567", "88"]|false
 
-### 문제 링크 
+### 입출력 예 설명
+
+입출력 예 #1\
+앞에서 설명한 예와 같습니다.
+
+입출력 예 #2\
+한 번호가 다른 번호의 접두사인 경우가 없으므로, 답은 true입니다.
+
+입출력 예 #3\
+첫 번째 전화번호, “12”가 두 번째 전화번호 “123”의 접두사입니다. 따라서 답은 false입니다.
+
+### 문제 링크
 
 [https://programmers.co.kr/learn/courses/30/lessons/42577?language=java](hhttps://programmers.co.kr/learn/courses/30/lessons/42577?language=java)
 
