@@ -1,6 +1,6 @@
 # Problem 12905
 
-## 전화번호 목록
+## 가장 큰 정사각형 찾기
 
 ### 문제 설명
 
@@ -104,4 +104,4 @@ cd C:\Swift\bin\
 ### loop 조건
 
 - loop는 row+1, col+1에 해당하는 값을 체크하므로 row.count - 1, col.count - 1 만큼만 돌아준다.
-- 만약 count == 1인 경우는 for loop가 돌지 않으므로 row.count == 1이거나 col.count == 1인 경우 값이 최소한 1로 채워진 row,col이 있다면 정사각형의 넓이 1이 있다고 체크해 줘야 한다.
+- 만약 count == 1인 경우는 for loop가 돌지 않으므로 row.count == 1이거나 col.count == 1인 경우 값이 1로 채워진 row,col중에 최소한 1개라도 있다면 정사각형의 넓이가 1이 된다고 체크해 줘야 한다.
