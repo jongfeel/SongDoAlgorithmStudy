@@ -5,8 +5,6 @@ using namespace std;
 
 bool solution(string s)
 {
-    bool answer = true;
-    
     int checkPair = 0;
     for (int i=0; i<s.length(); i++)
     {
@@ -20,14 +18,13 @@ bool solution(string s)
     }
 
     return checkPair == 0 ? true : false;
-    return true;
 }
 
 int main() 
 {
     int input;
 
-    cout << solution("()()") << endl;
+    cout << boolalpha << solution("()()") << endl;
     
     cout << "To end of program, input any character and enter...";
     cin >> input;

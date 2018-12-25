@@ -52,13 +52,13 @@ Change directory git root: /12909
 and compile
 
 ```bash
-g++ Problem.cpp
+g++ -static Problem.cpp
 ```
 
 [with debugging](https://gcc.gnu.org/onlinedocs/gcc/Debugging-Options.html#Debugging-Options)
 
 ```bash
-g++ -g Problem.cpp
+g++ -static -g Problem.cpp
 ```
 
 > Windows Environment Settings
@@ -88,3 +88,20 @@ a
   - 잘 보면 +2, -2로 0이 되긴 하는데 열고 닫는 쌍으로는 맞지 않아 true로 계산이 되므로
   - 괄호가 마이너스(-)가 되는 순간은 괄호 쌍이 안맞아 그냥 false를 return 하는게 맞겠다 싶어 추가 수정
 - 그리고 채점해 보면 효율성 테스트 까지 통과함
+
+## g++ complile
+
+- 사실 c 컴파일은 gcc로 하면 잘 되는데 c++ 컴파일러인 g++은 처음 써본다.
+- 그런데 MinGW 설치 시 g++ 설치한 후 g++ 실행하면 잘 되고, 심지어 hello world 찍는 코드도 잘 컴파일 되고 잘 실행 된다.
+- 문제는, include string을 하면서 부터인데 이걸 하면 뭘 하든 다음과 같은 에러 창을 만나게 되어 있다.
+- ![g++_include_string_error](g++_include_string_error.png)
+- 그래서 라이브러리 링크 문제라고 생각해 검색해 봤는데 컴파일 옵션에 -static을 붙여줘야 static link를 해준다는 걸 알았다. 그리고 아래의 링크에서 문제점을 해결하였다.
+- [https://www.reddit.com/r/cpp_questions/comments/6fply1/compiling_technical_issue/](https://www.reddit.com/r/cpp_questions/comments/6fply1/compiling_technical_issue/)
+
+## Useful option
+
+- c++은 base가 c여서 bool의 값을 출력하면 0 아니면 1로 출력이 된다.
+- 이걸 true, false로 출력하려면 if 문 걸고 "true", "false"와 같은 string 변수를 사용하는 방법도 있지만
+- std::boolalpha를 걸어 준 후에 bool 변수를 출력해 보면 true, false라는 string을 아름답게 출력해 주는 걸 확인할 수 있다.
+- boolalpha는 bool을 str stream으로 출력해 주는 flag의 기능을 가지고 있다고 한다.
+- [http://www.cplusplus.com/reference/ios/boolalpha/](http://www.cplusplus.com/reference/ios/boolalpha/)
