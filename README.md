@@ -25,18 +25,24 @@ GDG songdo algorithm study
 
 ## Meeting #1
 
-- 2018-12-10 first meeting
+- 2018-12-10
 - 모임 소개, 스터디 진행 방법 소개, 질의 응답
 - 각자 다음 주 까지 풀어올 문제 선정
 
 ## Meeting #2
 
-- 2018-12-17 second meeting
+- 2018-12-17
 - [12899, 124 나라의 숫자](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12899)
 - [12900, 2xn 타일링](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12900)
 
 ## Meeting #3
 
-- 2018-12-23 third meeting
+- 2018-12-23
 - [42577, 전화번호 목록](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/42577)
 - [12905, 가장 큰 정사각형 찾기](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12905)
+
+## Meeting #4
+
+- 2018-12-30
+- [12909, 올바른 괄호](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12909)
+- [12913, 땅따먹기](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12913)
