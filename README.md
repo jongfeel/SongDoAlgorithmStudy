@@ -46,3 +46,9 @@ GDG songdo algorithm study
 - 2018-12-30
 - [12909, 올바른 괄호](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12909)
 - [12913, 땅따먹기](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12913)
+
+## Meeting #5
+
+- 2019-01-07
+- [12901, 2016년](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12901)
+- [12951, JadenCase 문자열 만들기](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12951)
