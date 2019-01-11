@@ -52,3 +52,11 @@ GDG songdo algorithm study
 - 2019-01-07
 - [12901, 2016년](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12901)
 - [12951, JadenCase 문자열 만들기](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12951)
+- 추가 문제 풀기
+- [12921, 소수 찾기](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12921)
+
+## Meeting #6
+
+- 2019-01-14
+- [12919, 서울에서 김서방 찾기](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12919)
+- [12914, 멀리 뛰기](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12914)
