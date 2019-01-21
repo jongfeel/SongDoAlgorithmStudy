@@ -60,3 +60,9 @@ GDG songdo algorithm study
 - 2019-01-14
 - [12919, 서울에서 김서방 찾기](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12919)
 - [12914, 멀리 뛰기](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12914)
+
+## Meeting #7
+
+- 2019-01-21
+- [42626, 더 맵게](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/42626)
+- [12941, 최솟값 만들기](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12941)
