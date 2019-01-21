@@ -64,3 +64,25 @@ python Problem.py
 - 역시 하다 보니 런타임 에러 발생, 런타임 에러는 그렇다 치고 그냥 실패한건 이유가 불분명
 - 어쨌든 문제 자체가 heap이니까 heap 관련된 자료 구조를 써야 하는게 맞는 거 같아서 sorted heap, priority heap 과 같은 걸로 검색함
 - python에 [heapq](https://docs.python.org/3.0/library/heapq.html)라는 좋은 물건이 있어서 이걸로 구현
+- Binary tree 형태로 정렬해서 Log n의 복잡도를 가진다고 한다!
+
+## heapq
+
+- 공식 문서에도 나와 있지만 heapq 자체를 생성해서 메소드를 호출하는 식이 아니고
+- heap에 해당하는 배열을 할당하고 그 다음에 item을 넣는 식이다.
+
+``` python
+  import heapq
+
+  heap = []
+  heapq.heappush(heap, 1)
+  heapq.heappush(heap, 3)
+  heapq.heappush(heap, 2)
+
+  print(heapq.heappop(heap)) # 1
+  print(heapq.heappop(heap)) # 2
+  print(heapq.heappop(heap)) # 3
+```
+
+- push를 하면 내부적으로 binary tree 형태로 아이템을 할당할텐데 실제 heap 배열을 출력해 보면 작은 순서대로 나열 되어 있지는 않다.
+- 눈에 보이는 건 그렇지만 계속해서 heappop을 출력해 보면 item은 항상 heap에서 가장 작은 순서대로 나오긴 한다!
