@@ -32,7 +32,7 @@ n=1일 때, 남은 일의 작업량이 [2,1,2]라면 야근 지수를 최소화�
 
 ### 문제 링크
 
-[https://programmers.co.kr/learn/courses/30/lessons/12927?language=java](hhttps://programmers.co.kr/learn/courses/30/lessons/12927?language=java)
+[https://programmers.co.kr/learn/courses/30/lessons/12927?language=java](https://programmers.co.kr/learn/courses/30/lessons/12927?language=java)
 
 ## System Requirement
 
