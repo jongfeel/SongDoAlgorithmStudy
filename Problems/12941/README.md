@@ -40,7 +40,7 @@ A에서 첫번째 숫자인 1, B에서 두번째 숫자인 4를 뽑아 곱하여
 
 ### 문제 링크
 
-[https://programmers.co.kr/learn/courses/30/lessons/12941?language=swift](hhttps://programmers.co.kr/learn/courses/30/lessons/12941?language=swift)
+[https://programmers.co.kr/learn/courses/30/lessons/12941?language=swift](https://programmers.co.kr/learn/courses/30/lessons/12941?language=swift)
 
 ## System Requirement
 
@@ -73,7 +73,7 @@ cd C:\Swift\bin\
 - 두 배열에서 각 index의 값을 곱할 떄 최소값 구하기 문제
 - A는 accending order, B는 decending order로 sort 하고 서로 곱하면 최소값 아닐까? 해서 해보니 됨
 
-## Swift experirence
+## Swift experience
 
 - Array sort의 경우 accending, decending이 '<', '>'로 간단하게 되어 있다. accending의 경우는 by: 호출 없이 그냥 sort() 호출로도 가능하다.
 
@@ -90,3 +90,7 @@ arr.sort(by: >) // 4, 3, 1
 - python에서도 zip을 사용하면 enumerate 가능한 변수들을 한꺼번에 묶고 그걸 한번에 iterating할 수 있는데 swift에도 그 기능이 있다.
 
 - 문법도 똑같다. zip으로 묶은 갯수 만큼 for loop에서 나열한 item이 순서대로 들어온다는 점에서 매우 편하다.
+
+- 한번도 안써본 사람이 궁금해 하는 건 zip 안의 enumerate 변수들의 length가 각각 다르다면 for문이 어떻게 도느냐인데
+  - zip 안의 변수 중 length가 가장 작은 것 기준으로만 돈다.
+  - 그러니까 각각 length가 1, 100 이라고 하면 for 문은 가장 작은 length인 1 기준으로 돌게 되므로 한번만 돌게 된다.
