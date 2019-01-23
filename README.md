@@ -66,3 +66,9 @@ GDG songdo algorithm study
 - 2019-01-21
 - [42626, 더 맵게](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/42626)
 - [12941, 최솟값 만들기](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12941)
+
+## Meeting #8
+
+- 2019-01-28
+- [12924, 숫자의 표현](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12924)
+- [12927, 야근 지수](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12927)
