@@ -1,19 +1,11 @@
 function solution(n, arr1, arr2) {
     var answer = [];
-    let bitwiseOR = [];
     
-    for (let i=0; i<n; i++) {
-        bitwiseOR[i] = arr1[i] | arr2[i];
-        let mappingResult = bitwiseOR[i].toString(2).split('').map(bit => bit == 1 ? "#" : " ");
-        //console.log(mappingResult);
-        // space fill left
-        // ex) n == 6, mappingResult.length == 2 ("##")
-        // space fill left 4 and make length 6 ("    ##")
-        for (let j=mappingResult.length; j<n; j++) {
-            mappingResult.unshift(" ");
-        }
-        answer[i] = mappingResult.join("");
-    }
+    [...Array(n).keys()].map(i => arr1[i] | arr2[i]).forEach(bitwiseOR => {
+        let mappingResult = bitwiseOR.toString(2).split('').map(bit => bit == 1 ? "#" : " ");
+        [...Array(n - mappingResult.length).keys()].forEach(j => mappingResult.unshift(" "));
+        answer.push(mappingResult.join(""));
+    });
     
     return answer;
 }

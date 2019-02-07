@@ -86,3 +86,20 @@ node Problem.js
 - 예제 2번의 경우 2진수로 변환하면 n이 6이므로 다 6자리로 맞춰질 거 같은데 사실 앞에 0이 있는 2진수의 경우는 무시가 된다. 예로 index 4 의 OR 연산을 한 결과 값으로 오는 31의 경우는 11111로 채워지는 정직한 2진수의 값인데 n은 6으로 되어 있으므로 사실 011111로 채워져야 하고 이걸 string으로 표현해서 " #####"으로 나오게 해야 한다.
 - 그래서 map 까지 된 결과를 가지고 그 length가 n까지 도달하지 못한 mappingResult의 경우는 uhshift(" ") 함수를 걸어준다.
 - unshift는 arr의 index 0 부터 값을 채워넣는 함수이므로 2진수 앞의 0에 해당하는 " " 공백을 채워넣기에 효과적인 함수이다.
+
+## More effective javascript
+
+- 이왕 javascript 짠 거 더 기교를 부려본다.
+- Array.keys()는 iterator를 return 해 주므로 rest operator (...)와 결합하면 array가 생성된다. 마치 python range나 c#의 Enumerable.Range, java의 IntStream.range와 같은 느낌으로 쓸 수 있다.
+- 한가지 구멍은 python, c#, java와 달리 start 값을 지정해 줄 수 없다는 것이다. 조만간 ecmascript에서 range를 만들어야 하지 않을까 싶다.
+- 물론 loadash, underscore에 있는 걸 쓰면 되지 않냐? 라고 생각할 수 있지만 다른 언어에서는 언어 스펙에서 제공하는 거라 좀 다른 얘기다.
+
+``` javascript
+[...Array(3).keys()]
+// [0, 1, 2]
+```
+
+- 개인적으로 for 계열 (for, foreach, while, do while 등등)과 if 계열 (if, switch 등)을 쓰지 않고 코드를 짜는 걸 즐기면 코드양이 대폭 줄어들고 뿌듯함을 느낄 수 있다.
+- 여기서의 뿌듯함은 문법적으로 많이 알고 즐기는 것 뿐인 것이지 효율적이거나 가독성이 항상 좋다는 걸 의미하지는 않는다.
+- 그리고 최대 단점으로는 익숙하지 않으면 한번에 쉽게 알아보기 힘들다는 것 정도.
+- Readability vs Simplicity 의 갈등인데 이런 기교는 본인이 필요할 때 하는게 좋은 것 같고, 처음에 짠 코드가 더 가독성이 있어 보일 수 있다.
