@@ -78,3 +78,9 @@ GDG songdo algorithm study
 - 2019-02-11
 - [43105, 정수삼각형](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/43105)
 - [17681, 비밀 지도](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/17681)
+
+## Meeting #10
+
+- 2019-02-18
+- [12936, 줄 서는 방법](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12936)
+- [42885, 구명 보트](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/42885)
