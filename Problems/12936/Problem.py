@@ -13,6 +13,9 @@ def solution(n, k):
     # first solve
     # return list(list(permutations(range(1, n+1)))[k-1])
 
+    # second solve
+    # return list(list(item) for index, item in enumerate(permutations(range(1, n+1))) if index == k-1)[0]
+
     return 0
 
 print(solution(3, 5))
