@@ -84,3 +84,9 @@ GDG songdo algorithm study
 - 2019-02-18
 - [12936, 줄 서는 방법](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12936)
 - [42885, 구명 보트](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/42885)
+
+## Meeting #11
+
+- 2019-02-25
+- [42748, K번째수](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/42748)
+- [12904, 가장 긴 팰린드롬](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12904)
