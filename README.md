@@ -90,3 +90,14 @@ GDG songdo algorithm study
 - 2019-02-25
 - [42748, K번째수](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/42748)
 - [12904, 가장 긴 팰린드롬](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12904)
+
+## Meeting #12
+
+- 2019-03-04
+- Offline dinner meeting
+
+## Meeting #13
+
+- 2019-03-11
+- [12973, 짝지어 제거하기](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12973)
+- [42886, 저울](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/42886)
