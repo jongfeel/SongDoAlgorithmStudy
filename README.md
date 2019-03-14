@@ -23,6 +23,12 @@ GDG songdo algorithm study
 
 - Discord: [https://discordapp.com/channels/403397800005599233/521596155373682689](https://discordapp.com/channels/403397800005599233/521596155373682689)
 
+## Meeting #14
+
+- 2019-03-19
+- [42747, H-Index](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/42747)
+- [42579, 베스트앨범](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/42579)
+
 ## Meeting #13
 
 - 2019-03-11
