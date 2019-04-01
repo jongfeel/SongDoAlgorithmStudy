@@ -23,6 +23,12 @@ GDG songdo algorithm study
 
 - Discord: [https://discordapp.com/channels/403397800005599233/521596155373682689](https://discordapp.com/channels/403397800005599233/521596155373682689)
 
+## Meeting #16
+
+- 2019-04-01
+- [42884, 단속카메라](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/42884)
+- [42861, 섬 연결하기](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/42861)
+
 ## Meeting #15
 
 - 2019-03-25
