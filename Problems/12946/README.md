@@ -29,9 +29,9 @@
 
 다음과 같이 옮길 수 있습니다.
 
-![https://i.imgur.com/SWEqD08.png](https://i.imgur.com/SWEqD08.png)
-![https://i.imgur.com/mrmOzV2.png](https://i.imgur.com/mrmOzV2.png)
-![https://i.imgur.com/Ent83gA.png](https://i.imgur.com/Ent83gA.png)
+![https://i.imgur.com/SWEqD08.png](https://i.imgur.com/SWEqD08.png)\
+![https://i.imgur.com/mrmOzV2.png](https://i.imgur.com/mrmOzV2.png)\
+![https://i.imgur.com/Ent83gA.png](https://i.imgur.com/Ent83gA.png)\
 ![https://i.imgur.com/osJFfhF.png](https://i.imgur.com/osJFfhF.png)
 
 ### 문제 링크
