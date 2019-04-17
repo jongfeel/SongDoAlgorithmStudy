@@ -23,6 +23,23 @@ GDG songdo algorithm study
 
 - Discord: [https://discordapp.com/channels/403397800005599233/521596155373682689](https://discordapp.com/channels/403397800005599233/521596155373682689)
 
+## Meeting #19
+
+- 2019-04-22
+- Offline dinner meeting, arround Campaus town station
+
+## Meeting #18
+
+- 2019-04-15
+- [17677, 뉴스 클러스터링](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/17677)
+- [12971, 스티커 모으기 (2)](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12971)
+  - Actaully, this problem solved at 04-17
+
+## Meeting #17
+
+- 2019-04-08
+- [12907, 거스름돈](https://github.com/jongfeel/SongDoAlgorithmStudy/tree/master/Problems/12907)
+
 ## Meeting #16
 
 - 2019-04-01
@@ -50,7 +67,7 @@ GDG songdo algorithm study
 ## Meeting #12
 
 - 2019-03-04
-- Offline dinner meeting
+- Offline dinner meeting, arround Bupyoung station
 
 ## Meeting #11
 
